@@ -1,0 +1,16 @@
+{
+    "name": "jsnlib/joomla_pagination",
+    "type": "library",
+    "description": "結構化分頁輔助，操作起來更明確",
+    "keywords": ["joomla", "pagination", "helper"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0",
+        "jsnlib/ao": ">=1.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jsnlib\\": "src\\"
+        }
+    }
+}
