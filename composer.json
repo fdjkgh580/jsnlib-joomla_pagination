@@ -1,7 +1,7 @@
 {
     "name": "jsnlib/joomla_pagination",
     "type": "library",
-    "description": "結構化分頁輔助，操作起來更明確",
+    "description": "幫助 Joomla! 結構化分頁輔助，操作起來更明確",
     "keywords": ["joomla", "pagination", "helper"],
     "license": "MIT",
     "require": {
