@@ -100,3 +100,10 @@ administrator/components/com_todolist/views/todolist/tmpl/main.php
 <?=$this->pagination->joomlaPagination->getListFooter(); ?>
 ````
 
+確保表單的值是否如期設置，因為 Joomla 換頁使用 POST 傳遞與接收，請檢查是否能正確 POST
+````php
+<input type="hidden" name="option" value="務必正確設定如 com_news">
+<input type="hidden" name="task" value="務必正確設定如 new.index">
+````
+
+
